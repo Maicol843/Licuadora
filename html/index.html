@@ -10,7 +10,15 @@
     <title>Licuadora</title>
 </head>
 <body>
-    
+    <!--Contenedor licuadora-->
+    <div class="container">
+        <div id="blender" class="blender">
+            <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div>
+        </div>
+    </div>
+    <!--Sonidos-->
+    <audio id="blender-sound"src="../assets/sound/licuadora.mp3" type="audio/mpeg" loop></audio>
+    <audio id="blender-button-sound"src="../assets/sound/botonLicuadora.mp3" type="audio/mpeg"></audio>
 </body>
 <script src="../js/motor.js"></script>
 </html>
